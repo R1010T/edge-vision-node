@@ -1,0 +1,7 @@
+dependencies:
+  espressif/esp32-camera: "^2.0.13"
+  espressif/mdns: "^1.2.5"
+  espressif/esp-dl: "^3.1.2"
+  espressif/human_face_detect: "*"
+  idf:
+    version: ">=5.3,<6.0"
