@@ -2,7 +2,7 @@
 
 > An on-device person/face detection camera with TLS-secured MQTT telemetry, offline event buffering, and over-the-air firmware updates. No cloud inference. No image upload. Sub-250 ms alert latency.
 
-[![Build](https://github.com/<your-user>/edge-vision-node/actions/workflows/ci.yml/badge.svg)](https://github.com/<your-user>/edge-vision-node/actions)
+[![Build](https://github.com/R1010T/edge-vision-node/actions/workflows/ci.yml/badge.svg)](https://github.com/R1010T/edge-vision-node/actions)
 [![ESP-IDF](https://img.shields.io/badge/ESP--IDF-v5.3.2-blue)](https://docs.espressif.com/projects/esp-idf/en/v5.3.2/)
 [![Platform](https://img.shields.io/badge/MCU-ESP32--S3-red)](https://www.espressif.com/en/products/socs/esp32-s3)
 [![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
@@ -107,7 +107,7 @@ Or use the **ESP-IDF VS Code extension** → `Open ESP-IDF Installation Manager`
 ### 2. Clone and configure secrets
 
 ```bash
-git clone https://github.com/<your-user>/edge-vision-node.git
+git clone https://github.com/R1010T/edge-vision-node.git
 cd edge-vision-node
 cp main/secrets.h.template main/secrets.h
 # edit main/secrets.h with your Wi-Fi + HiveMQ credentials
