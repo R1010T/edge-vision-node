@@ -1,15 +1,16 @@
 name: build
-
 on:
   push:
     branches: [main]
   pull_request:
-
 jobs:
   esp32s3-build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+
+      - name: Create dummy secrets.h for CI build
+        run: cp main/secrets.h.template main/secrets.h
 
       - name: ESP-IDF build (v5.3.2, target=esp32s3)
         uses: espressif/esp-idf-ci-action@v1
